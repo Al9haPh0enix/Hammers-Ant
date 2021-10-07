@@ -71,7 +71,7 @@ function moveForward() {
 
 function draw() {
     strokeWeight(1);
-    for (let n = 0; n < 1000; n++) {
+    for (let n = 0; n < 2500; n++) {
         let state = grid[x][y];
         if (state == 0) {
             turnRight();
